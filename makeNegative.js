@@ -1,3 +1,4 @@
+Clonvert;
 function makeNegative(num) {
   if (num === 0) {
     return 0;
@@ -10,6 +11,10 @@ function makeNegative(num) {
 
 function makeNegative(num) {
   return -Math.abs(num);
+}
+
+function makeNegative(num) {
+  return num < 0 ? num : -num;
 }
 
 console.log(makeNegative(-9));
